@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeHeader from './HomeHeader';
 import HomeMain from './HomeMain';
 import HomeThreeColumns from './HomeThreeColumns';
 import HomeSimpleSteps from './HomeSimpleSteps';
@@ -10,7 +9,6 @@ import HomeFooter from './HomeFooter';
 
 const Home = () => (
     <>
-        <HomeHeader />
         <HomeMain />
         <HomeThreeColumns />
         <HomeSimpleSteps />
