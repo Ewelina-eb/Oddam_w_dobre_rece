@@ -11,7 +11,7 @@
 .main-image {
   grid-area: image;
   background-image: url("../assets/heroImage.png");
-//   background-size: cover;
+    // background-size: cover;
 }
 .main-content {
   grid-area: content;
@@ -32,11 +32,11 @@
   align-items: center;
 }
 .main-content-decoration {
-  background-image: url("../assets/Decoration.svg");
-  background-size: cover;
-  width: 253px;
-  height: 33px;
   margin-top: 2.6vh;
+  img {
+    width: 13.32rem; // 253px
+    height: 33px;
+  }
 }
 .main-content-buttons {
   width: 100%;
@@ -45,11 +45,9 @@
   margin-top: 6.75vh;
 }
 .main-button {
-  position: relative;
   .btn {
     width: 16.3rem;
-    height: 12.46vh;
-    padding: 12.5% 0;
+    padding: 13px 2.25rem;
     font-size: 2.25rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -58,12 +56,9 @@
     font-weight: lighter;
     border: 0.75px solid $color-dark-text;
     background-color: #fff;
-    position: absolute;
   }
   &:first-child {
     margin-right: 100px;
-    left: -30%;
-    
   }
 }
 
