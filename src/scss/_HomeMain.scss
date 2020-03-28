@@ -1,0 +1,126 @@
+.home-main {
+  max-height: 963px;
+  display: grid;
+  grid-template-columns: 46.58% 1fr 7.47%;
+  grid-template-rows: 35.51vh 36.34vh 28.15vh;
+  grid-template-areas:
+    "image header ."
+    "image content ."
+    "image . .";
+}
+.main-image {
+  grid-area: image;
+  background-image: url("../assets/heroImage.png");
+//   background-size: cover;
+}
+.main-content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    font-size: 2.375rem;
+    font-weight: normal;
+    letter-spacing: -0.76px;
+    line-height: 55px;
+    text-align: center;
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content-decoration {
+  background-image: url("../assets/Decoration.svg");
+  background-size: cover;
+  width: 253px;
+  height: 33px;
+  margin-top: 2.6vh;
+}
+.main-content-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 6.75vh;
+}
+.main-button {
+  position: relative;
+  .btn {
+    width: 16.3rem;
+    height: 12.46vh;
+    padding: 12.5% 0;
+    font-size: 2.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-dark-text;
+    font-weight: lighter;
+    border: 0.75px solid $color-dark-text;
+    background-color: #fff;
+    position: absolute;
+  }
+  &:first-child {
+    margin-right: 100px;
+    left: -30%;
+    
+  }
+}
+
+// HomeHeader
+.home-header {
+  grid-area: header;
+}
+.header-autorization {
+  height: 36px;
+  padding-top: 3.8%;
+  margin-bottom: 1.77%;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      text-align: center;
+    }
+  }
+}
+.login-btn,
+.register-btn {
+  padding: 9px;
+  text-decoration: none;
+  color: $color-light-text;
+}
+.login-btn {
+  font-size: 0.875rem;
+}
+.register-btn {
+  font-size: 0.8125rem;
+  border: 0.75px solid $color-btn-border;
+}
+
+//HeaderNav
+.header-nav {
+  height: 42px;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      font-size: 1.13rem;
+      color: $color-dark-text;
+      text-align: right;
+      margin-left: 3%;
+      display: inline-block;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    li:first-child {
+      width: 80px;
+      height: 42px;
+      margin-left: 0;
+      border: 0.75px solid $color-dark-text;
+      justify-content: center;
+    }
+  }
+}

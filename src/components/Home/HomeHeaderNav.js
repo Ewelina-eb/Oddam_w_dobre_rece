@@ -1,18 +1,17 @@
 import React from 'react';
-// import * as Scroll from 'react-scroll';
-// import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const HomeHeaderNav = () => (
     <>
-            {/* <nav classsName="header-nav">
+            <nav className="header-nav">
                 <ul>
-                    <li><Scroll to="/" spy={true} smooth={true} duration={500}>Start</Scroll></li>
-                    <li><Scroll to="HomeSimpleSteps" spy={true} smooth={true} duration={500}>O co chodzi?</Scroll></li>
-                    <li><Scroll to="HomeAboutUs" spy={true} smooth={true} duration={500}>O nas</Scroll></li>
-                    <li><Scroll to="HomeWhoWeHelp" spy={true} smooth={true} duration={500}>Fundacje i organizacje</Scroll></li>
-                    <li><Scroll to="HomeContact" spy={true} smooth={true} duration={500}>Kontakt</Scroll></li>
+                    <li><Link to="/" spy={true} smooth={true} duration={500}>Start</Link></li>
+                    <li><Link to="HomeSimpleSteps" spy={true} smooth={true} duration={500}>O co chodzi?</Link></li>
+                    <li><Link to="HomeAboutUs" spy={true} smooth={true} duration={500}>O nas</Link></li>
+                    <li><Link to="HomeWhoWeHelp" spy={true} smooth={true} duration={500}>Fundacje i organizacje</Link></li>
+                    <li><Link to="HomeContact" spy={true} smooth={true} duration={500}>Kontakt</Link></li>
                 </ul>
-            </nav> */}
+            </nav>
     </>
 );
 

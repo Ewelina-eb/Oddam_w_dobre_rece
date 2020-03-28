@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom';
 
 const HomeMain = () => (
     <>
-        <div className="home-main">
+        <header className="home-main">
             <HomeHeader />
-            <div className="main-image">
-                <img></img>
-            </div>
-            <div className="main-content">
-                <h2>Zacznij pomagać! <br />
+            <div className="main-image"></div>
+            <section className="main-content">
+                <div className="main-container">
+                    <h2>Zacznij pomagać! <br />
                     Oddaj niechciane rzeczy w zaufane ręce</h2>
-                <div className="main-content-decoration"></div>
-                <div className="main-content-buttons">
-                    <Link to="/logowanie">Oddaj rzeczy</Link>
-                    <Link to="/logowanie">Zorganizuj zbiórkę</Link>
+                    <div className="main-content-decoration"></div>
+                    <div className="main-content-buttons">
+                        <Link className="main-button" to="/logowanie"><button className="btn">Oddaj <br /> rzeczy</button></Link>
+                        <Link className="main-button" to="/logowanie"><button className="btn">Zorganizuj <br /> zbiórkę</button></Link>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </header>
     </>
 );
 

@@ -4,8 +4,16 @@
 @import "./settings/colors";
 // fonts
 @import "./settings/fonts";
+// reset 
+@import "./settings/reset";
+// HomeMain style
+@import "./HomeMain";
 
+html {
+    font-size: 12px;
+}
 
 body {
     font-family: $font-base;
+    color: $color-dark-text;
 }
