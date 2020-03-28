@@ -1,0 +1,59 @@
+.simple-steps {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    .title-container {
+        margin: 55px 0 34px;
+        h3 {
+            font-size: 2.375rem;
+            letter-spacing: -0.76px;
+        }
+        .decoration {
+            text-align: center;
+            margin-top: 25px;
+            img {
+                width: 13.32rem; // 253px
+                height: 33px;
+            }
+        }
+    }
+    .steps-container {
+        display: flex;
+        justify-content: center;
+        background-color: $color-light-background;
+        margin-bottom: 20px;
+        .step {
+            padding: 4.7%;
+            img {
+                width: 4.37rem;
+                margin: 7px auto;
+            }
+            h4 {
+                font-size: 1.125rem;
+            }
+            .step-line {
+                width: 3.7rem;
+                display: inline-block;
+                color: $color-line;
+            }
+            p {
+                margin-top: 10.5px;
+                font-size: 1rem;
+            }
+        }
+    }
+    .simple-steps-link {
+        .btn {
+            width: 16.3rem;
+            padding: 13px 2.25rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            color: $color-dark-text;
+            font-size: 2.25rem;
+            font-weight: lighter;
+            border: 0.75px solid $color-dark-text;
+            background-color: #fff;
+        }
+    }
+}

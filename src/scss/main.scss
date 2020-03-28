@@ -6,10 +6,12 @@
 @import "./settings/fonts";
 // reset 
 @import "./settings/reset";
-// HomeMain with HomeHeader style
+// HomeMain with HomeHeader
 @import "./HomeMain";
-// HomeThreeColumns style
+// HomeThreeColumns
 @import "./HomeThreeColumns";
+// HomeSimpleSteps
+@import "./HomeSimpleSteps";
 
 html {
     font-size: 12px;
