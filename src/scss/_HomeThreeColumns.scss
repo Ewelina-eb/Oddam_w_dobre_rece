@@ -1,0 +1,28 @@
+.three-columns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../assets/ThreeColumnsBackground.png");
+  background-size: cover;
+  .col {
+    width: 17.58%;
+    text-align: center;
+    h3 {
+      font-size: 5.625rem;
+      color: $color-numbers;
+      font-weight: lighter;
+      padding: 11px;
+    }
+    h4 {
+      font-size: 1.125rem;
+      text-transform: uppercase;
+      font-weight: normal;
+    }
+    p {
+      font-size: 1rem;
+      font-family: $font-alt;
+      font-weight: lighter;
+      margin: 11px 0 35px;
+    }
+  }
+}
