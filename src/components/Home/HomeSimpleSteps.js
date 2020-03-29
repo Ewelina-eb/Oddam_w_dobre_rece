@@ -8,7 +8,7 @@ import Decoration from '../../assets/Decoration.svg';
 
 const HomeSimpleSteps = () => (
     <>
-        <section className="simple-steps">
+        <section className="simple-steps" id="simple-steps">
             <div className="title-container">
                 <h3>Wystarczą 4 proste kroki</h3>
                 <div className="decoration">
