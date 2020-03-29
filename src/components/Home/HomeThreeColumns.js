@@ -15,7 +15,7 @@ const HomeThreeColumns = () => (
             </div>
             <div className="col">
                 <h3>7</h3>
-                <h4>ZORGANIZOWANY ZBIÓREK</h4>
+                <h4>ZORGANIZOWANYCH ZBIÓREK</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
             </div>
         </section>

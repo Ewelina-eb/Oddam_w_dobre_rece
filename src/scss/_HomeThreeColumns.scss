@@ -4,6 +4,7 @@
   justify-content: space-around;
   background-image: url("../assets/ThreeColumnsBackground.png");
   background-size: cover;
+  padding: 20px 0 36px;
   .col {
     width: 17.58%;
     text-align: center;
@@ -20,8 +21,10 @@
     }
     p {
       font-size: 1rem;
-      font-family: $font-alt;
+      font-family: $font-alt sans-serif;
       font-weight: lighter;
+      letter-spacing: -0.32px;
+      line-height: 18px;
       margin: 11px 0 35px;
     }
   }
