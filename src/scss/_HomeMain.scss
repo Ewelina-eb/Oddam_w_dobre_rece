@@ -1,5 +1,5 @@
 .home-main {
-  max-height: 963px;
+  height: 100vh;
   display: grid;
   grid-template-columns: 46.58% 1fr 7.47%;
   grid-template-rows: 35.51vh 36.34vh 28.15vh;
@@ -10,8 +10,9 @@
 }
 .main-image {
   grid-area: image;
-  background-image: url("../assets/heroImage.png");
-    // background-size: cover;
+  background-size: cover;
+  background-position: right;
+  background-image: url('../assets/heroImage.png');
 }
 .main-content {
   grid-area: content;
@@ -34,7 +35,7 @@
 .main-content-decoration {
   margin-top: 2.6vh;
   img {
-    width: 13.32rem; // 253px
+    width: 13.32rem;
     height: 33px;
   }
 }
