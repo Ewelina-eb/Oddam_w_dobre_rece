@@ -1,0 +1,44 @@
+.about-us {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    .about-us-content {
+        width: 50.42%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8rem 0 7.84rem;
+        h3 {
+            font-size: 2.375rem;
+            letter-spacing: -0.76px;
+            font-weight: normal;
+        }
+        .decoration {
+            text-align: center;
+            margin: 26px 0 55px 0;
+            img {
+                width: 13.32rem;
+                height: 33px;
+            }
+        }
+        p {
+            font-size: 1.875rem;
+            letter-spacing: -0.6px;
+            line-height: 3.375rem;
+            text-align: center;
+        }
+        .signature {
+            align-self: flex-end;
+            margin-top: 40.09px;
+            img {
+                width: 11.01rem;
+            }
+        }
+    }
+    .about-us-image {
+        width: 49.58%;
+        background-image: url("../assets/people.png");
+        // background-size: cover;
+    }
+}
