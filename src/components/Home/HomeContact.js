@@ -14,19 +14,19 @@ const HomeContact = () => (
                         </div>
                     </div>
                     <form className="form">
-                        <div>
+                        <div className="inputs-container">
                             <label className="form-name">
                                 Wpisz swoje imię
                     <input type="text" name="name" placeholder="Krzysztof" />
                             </label>
                             <label className="form-email">
                                 Wpisz swój email
-                    <input type="text" name="name" placeholder="abc@xyz.pl" />
+                    <input type="email" name="emain" placeholder="abc@xyz.pl" />
                             </label>
                         </div>
                         <label className="form-message">
                             Wpisz swoją wiadomość
-                    <textarea type="text" name="name" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+                    <textarea type="text" name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
                         </label>
                         <input className="form-btn" type="submit" value="Wyślij" />
                     </form>
