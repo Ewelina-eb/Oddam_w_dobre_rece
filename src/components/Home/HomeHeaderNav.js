@@ -9,7 +9,7 @@ const HomeHeaderNav = () => (
                     <li><Link to="simple-steps" spy={true} offset={-45} smooth={true} duration={500}>O co chodzi?</Link></li>
                     <li><Link to="about-us" spy={true} offset={0} smooth={true} duration={500}>O nas</Link></li>
                     <li><Link to="whoWeHelp" spy={true} offset={0} smooth={true} duration={500}>Fundacje i organizacje</Link></li>
-                    <li><Link to="HomeContact" spy={true} offset={0} smooth={true} duration={500}>Kontakt</Link></li>
+                    <li><Link to="contact" spy={true} offset={0} smooth={true} duration={500}>Kontakt</Link></li>
                 </ul>
             </nav>
     </>

@@ -1,0 +1,114 @@
+.home-contact {
+  width: 100%;
+  height: 100vh;
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-position: 0% 0%;
+  background-image: url("../assets/background-Contact-Form.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  .contact-background {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffffc9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    .contact-form {
+      width: 27.79vw;
+      margin-top: 12.5vh;
+      margin-right: 15vw; //7.47vw;
+      .title-container {
+        margin: 4.375rem 0 3.125rem;
+        h3 {
+          font-size: 2.375rem;
+          letter-spacing: -0.76px;
+          font-weight: normal;
+          text-align: center;
+        }
+        .decoration {
+          text-align: center;
+          margin-top: 1.5625rem;
+          img {
+            width: 13.32vw;
+            height: 2.0625rem;
+          }
+        }
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-weight: 600;
+        }
+        input,
+        textarea {
+          margin-top: 0.75rem;
+          font-size: 1.125rem;
+          border: none;
+          border-bottom: 1px solid $color-line;
+          &::placeholder {
+            color: #3c3c3c26;
+          }
+        }
+        input {
+          width: 13.47vw;
+        }
+        div {
+          display: flex;
+          justify-content: space-between;
+          .form-name {
+            display: flex;
+            flex-direction: column;
+          }
+          .form-email {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .form-message {
+          margin-top: 2.5rem;
+          display: flex;
+          flex-direction: column;
+          textarea {
+            height: 6.0625rem;
+          }
+        }
+        .form-btn {
+          width: 7.89vw;
+          height: 3.125rem;
+          margin-top: 2.75rem;
+          background-color: #fff;
+          border: 0.75px solid $color-dark-text;
+          align-self: flex-end;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  // Footer
+  .home-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .copyright {
+      margin: 0 30vw 0 auto;
+      h5 {
+        font-size: 1.125rem;
+        font-weight: normal;
+      }
+    }
+    .social-media {
+      margin-right: 15vw;
+      img {
+          height: 1.875rem;
+          margin-left: 1.05vw;
+      }
+    }
+  }
+}

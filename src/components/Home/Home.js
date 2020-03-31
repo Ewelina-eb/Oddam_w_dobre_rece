@@ -5,7 +5,6 @@ import HomeSimpleSteps from './HomeSimpleSteps';
 import HomeAboutUs from './HomeAboutUs';
 import HomeWhoWeHelp from './HomeWhoWeHelp';
 import HomeContact from './HomeContact';
-import HomeFooter from './HomeFooter';
 
 const Home = () => (
     <>
@@ -15,7 +14,6 @@ const Home = () => (
         <HomeAboutUs />
         <HomeWhoWeHelp />
         <HomeContact />
-        <HomeFooter />
     </>
 );
 
