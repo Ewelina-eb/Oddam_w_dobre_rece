@@ -18,11 +18,11 @@ const LogIn = () => (
                 </div>
                 <form className="form">
                     <div className="form-inputs">
-                        <label className="form-name">
+                        <label className="form-email">
                             Email
                     <input type="email" name="email" />
                         </label>
-                        <label className="form-email">
+                        <label className="form-password">
                             Hasło
                     <input type="password" name="password" />
                         </label>

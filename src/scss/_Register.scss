@@ -1,0 +1,78 @@
+.register {
+    width: 100%;
+    height: 100vh;
+    .header-container {
+      margin-right: 7.47vw;
+    }
+    .register-container {
+      height: 64.49vh;
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title-container {
+        margin-bottom: 3.75rem;
+        h3 {
+          font-size: 2.375rem;
+          letter-spacing: -0.76px;
+          font-weight: normal;
+          text-align: center;
+        }
+        .decoration {
+          text-align: center;
+          margin-top: 1.5625rem;
+          img {
+            width: 13.32vw;
+            height: 2.0625rem;
+          }
+        }
+      }
+      .form {
+        width: 26.52vw;
+        display: flex;
+        flex-direction: column;
+        .form-inputs {
+          width: 20.21vw;
+          height: 20.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-self: center;
+          background-color: $color-light-background;
+          label {
+            display: flex;
+            flex-direction: column;
+            font-weight: 600;
+            &:not(last-child) {
+              padding-bottom: 1.9375rem;
+            }
+            input {
+              width: 13.16vw;
+              height: 2.5rem;
+              border: none;
+              border-bottom: 1px solid $color-line;
+              background-color: $color-light-background;
+            }
+          }
+        }
+        .form-buttons {
+          margin-top: 2.5rem;
+          display: flex;
+          justify-content: space-between;
+          .btn {
+            width: 6.16vw;
+            height: 3.125rem;
+            font-size: 1.125rem;
+            background-color: #fff;
+            border: none;
+          }
+          .form-register-btn {
+            border: 0.75px solid $color-dark-text;
+          }
+        }
+      }
+    }
+  }
+  
