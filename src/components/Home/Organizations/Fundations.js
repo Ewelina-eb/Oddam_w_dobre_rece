@@ -1,45 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import fundationsData from './fundations-data';
+import Items from './Items';
+import Pagination from './Pagination';
 
-const Fundations = () => (
-    <>
-        <section className="organizations">
-            <div className="organization-desc">
-                <p>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
-            </div>
-            <div className="organizations-list">
-                <div className="organization">
-                    <div className="info">
-                        <h4>Fundacja “Dbam o Zdrowie”</h4>
-                        <p>Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.</p>
-                    </div>
-                    <div className="details">
-                        <p>ubrania, jedzenie, sprzęt AGD, meble, zabawki</p>
-                    </div>
-                </div>
-                < hr />
-                <div className="organization">
-                    <div className="info">
-                        <h4>Fundacja “Dla dzieci”</h4>
-                        <p>Cel i misja: Pomoc dzieciom z ubogich rodzin.</p>
-                    </div>
-                    <div className="details">
-                        <p>ubrania, meble, zabawki</p>
-                    </div>
-                </div>
-                < hr />
-                <div className="organization">
-                    <div className="info">
-                        <h4>Fundacja “Bez domu”</h4>
-                        <p>Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.</p>
-                    </div>
-                    <div className="details">
-                        <p>ubrania, jedzenie, ciepłe koce</p>
-                    </div>
-                </div>
-            </div>
+const Fundations = () => {
+    const [items] = useState(fundationsData);
+    const [loading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage] = useState(3);
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = items.slice(indexOfFirstItem, indexOfLastItem);
+    const paginate = pageNumber => setCurrentPage(pageNumber);
 
-        </section>
-    </>
-)
+    return (
+        <>
+            <section className="organizations">
+                <div className="organization-desc">
+                    <p>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
+                </div>
+                <Items items={currentItems} loading={loading} />
+                <Pagination itemsPerPage={itemsPerPage} totalItems={items.length} paginate={paginate} />
+            </section>
+        </>
+    );
+};
 
 export default Fundations;
