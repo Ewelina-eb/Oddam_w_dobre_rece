@@ -1,4 +1,5 @@
 import React from 'react';
+import Pagination from './Pagination';
 
 const LocalCollections = () => (
     <>
@@ -16,7 +17,6 @@ const LocalCollections = () => (
                         <p>Egestas, sed, tempus</p>
                     </div>
                 </div>
-                < hr />
                 <div className="organization">
                     <div className="info">
                         <h4>Zbiórka “Lorem Ipsum 2”</h4>
@@ -26,7 +26,6 @@ const LocalCollections = () => (
                         <p>Ut, aliquam, purus, sit, amet</p>
                     </div>
                 </div>
-                < hr />
                 <div className="organization">
                     <div className="info">
                         <h4>Zbiórka “Lorem Ipsum 3”</h4>
@@ -37,7 +36,7 @@ const LocalCollections = () => (
                     </div>
                 </div>
             </div>
-
+            <Pagination />
         </section>
     </>
 )

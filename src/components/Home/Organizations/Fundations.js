@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import fundationsData from './fundations-data';
+import React, { useState } from 'react';
+import fundationsData from './Organizations-data/fundations-data';
 import Pagination from './Pagination';
 
 const Fundations = () => {
@@ -24,17 +24,15 @@ const Fundations = () => {
                 </div>
                 <div className="organizations-list">
                     {currentItems.map(item => (
-                        <>
                             <div key={item.id} className="organization">
-                                <div key={item.id} className="info">
-                                    <h4 key={item.id}>{item.name}</h4>
-                                    <p key={item.id}>{item.mission}</p>
+                                <div className="info">
+                                    <h4>{item.name}</h4>
+                                    <p>{item.mission}</p>
                                 </div>
-                                <div key={item.id} className="details">
-                                    <p key={item.id}>{item.details}</p>
+                                <div className="details">
+                                    <p>{item.details}</p>
                                 </div>
                             </div>
-                        </>
                     ))}
                 </div>
                 <Pagination itemsPerPage={itemsPerPage} totalItems={items.length} paginate={paginate} />
