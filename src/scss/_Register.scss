@@ -55,6 +55,11 @@
               border-bottom: 1px solid $color-line;
               background-color: $color-light-background;
             }
+            .error-msg {
+              color: red;
+              font-size: 0.75rem;
+              padding: 0.5rem 0;
+            }
           }
         }
         .form-buttons {
