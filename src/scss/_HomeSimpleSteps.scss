@@ -2,9 +2,9 @@
     width: 100%;
     height: 100vh;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     .title-container {
-        margin: 55px 0 34px;
+        margin: 3.44rem 0 2.125rem;
         h3 {
             font-size: 2.375rem;
             letter-spacing: -0.76px;
@@ -12,10 +12,10 @@
         }
         .decoration {
             text-align: center;
-            margin-top: 25px;
+            margin-top: 1.56rem;
             img {
-                width: 13.32rem;
-                height: 33px;
+                width: 13.32vw;
+                height: 2.06rem;
             }
         }
     }
@@ -23,31 +23,31 @@
         display: flex;
         justify-content: center;
         background-color: $color-light-background;
-        margin-bottom: 25px;
+        margin-bottom: 1.56rem;
         .step {
             padding: 4.7%;
             img {
-                width: 4.37rem;
-                margin: 7px auto;
+                width: 4.37vw;
+                margin: 0.4375rem auto;
             }
             h4 {
                 font-size: 1.125rem;
             }
             .step-line {
-                width: 3.7rem;
+                width: 3.7rvw;
                 display: inline-block;
                 color: $color-line;
             }
             p {
-                margin-top: 10.5px;
+                margin-top: 0.656rem;
                 font-size: 1rem;
             }
         }
     }
     .simple-steps-link {
         .btn {
-            width: 16.3rem;
-            padding: 13px 2.25rem;
+            width: 16.3vw;
+            padding: 0.8125rem 2.25vw;
             text-decoration: none;
             text-transform: uppercase;
             text-align: center;

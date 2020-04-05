@@ -1,6 +1,6 @@
 .about-us {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   .about-us-content {
     width: 50.42%;
@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 8rem 0 7.84rem;
+    padding: 0 8vw 0 7.84vw;
     h3 {
       font-size: 2.375rem;
       letter-spacing: -0.76px;
@@ -16,10 +16,10 @@
     }
     .decoration {
       text-align: center;
-      margin: 26px 0 55px 0;
+      margin: 1.625rem 0 3.44rem;
       img {
-        width: 13.32rem;
-        height: 33px;
+        width: 13.32vw;
+        height: 2.06rem;
       }
     }
     p {
@@ -30,9 +30,9 @@
     }
     .signature {
       align-self: flex-end;
-      margin-top: 40.09px;
+      margin-top: 2.5rem;
       img {
-        width: 11.01rem;
+        width: 11.01vw;
       }
     }
   }
