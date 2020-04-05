@@ -23,7 +23,7 @@
     font-size: 2.375rem;
     font-weight: normal;
     letter-spacing: -0.76px;
-    line-height: 55px;
+    line-height: 3.44rem;
     text-align: center;
   }
 }
@@ -33,33 +33,35 @@
   align-items: center;
 }
 .main-content-decoration {
-  margin-top: 2.6vh;
+  margin-top: 1.56rem;
   img {
-    width: 13.32rem;
-    height: 33px;
+    width: 13.32vw;
+    height: 2.06rem;
   }
 }
 .main-content-buttons {
-  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 6.75vh;
+  margin-top: 4.06rem;
 }
 .main-button {
+  text-decoration: none;
   .btn {
-    width: 16.3rem;
-    padding: 13px 2.25rem;
+    width: 16.3vw;
+    height: 7.5rem;
+    padding: 0.8rem 4.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.25rem;
-    text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
     color: $color-dark-text;
     font-weight: lighter;
     border: 0.75px solid $color-dark-text;
     background-color: #fff;
   }
   &:first-child {
-    margin-right: 100px;
+    margin-right: 5.26vw;
   }
 }
 
@@ -68,9 +70,8 @@
   grid-area: header;
 }
 .header-autorization {
-  height: 36px;
-  padding-top: 3.8%;
-  margin-bottom: 1.77%;
+  height: 2.25rem;
+  margin: 2.3rem 0 1.6rem;
   ul {
     list-style: none;
     display: flex;
@@ -82,7 +83,7 @@
 }
 .login-btn,
 .register-btn {
-  padding: 9px;
+  padding: 0.625rem 0.47vw;
   text-decoration: none;
   color: $color-light-text;
 }
@@ -90,13 +91,15 @@
   font-size: 0.875rem;
 }
 .register-btn {
+  width: 4.737vw;
+  height: 2.25rem;
   font-size: 0.8125rem;
   border: 0.75px solid $color-btn-border;
 }
 
 //HeaderNav
 .header-nav {
-  height: 42px;
+  height: 2.625rem;
   ul {
     list-style: none;
     display: flex;
@@ -105,15 +108,15 @@
       font-size: 1.13rem;
       color: $color-dark-text;
       text-align: right;
-      margin-left: 3%;
+      margin-left: 2vw;
       display: inline-block;
       display: flex;
       justify-content: flex-end;
       align-items: center;
     }
     li:first-child {
-      width: 80px;
-      height: 42px;
+      width: 4.21vw;
+      height: 2.625rem;
       margin-left: 0;
       border: 0.75px solid $color-dark-text;
       justify-content: center;
